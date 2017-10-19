@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>IQ-Tester</title>
+    <link href="css/questions.css" rel="stylesheet" />
+    <style>
+
+        .nameOfUser{
+
+            text-align:center;
+            font-size: 35px;
+            
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <div class="topBorder">
+        
+        <p class="IQ_Tester_Result">IQ-Tester</p>
+
+        <button class="logout" onclick="UserOut()">Logout</button>
+
+    </div>
+
+    <div class="showScreen" style="margin-top: 70px;">
+        
+        <p class="nameOfUser" id="nameid"></p>
+
+        <div class="scoreBoxes">
+
+            <div class="box">
+                <span>Your IQ</span>
+                <p id="userIQ"></p>
+                <p id="numberOfCorrect" style="padding-bottom: 10px;"></p>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <script src="js/result.js" type="text/javascript"></script>
+</body>
+
+</html>
